@@ -1,0 +1,27 @@
+.TeamTicketTrackerApp {
+  h1 {
+    margin: 3rem 0;
+    font-size: 3rem;
+    text-align: center;
+  }
+}
+
+.trackerContainer {
+  display: grid;
+  gap: 1rem;
+  width: 80%;
+  margin: auto;
+  grid-template-columns: 1fr;
+}
+
+@media screen and (min-width: 767.98px) {
+  .trackerContainer {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media screen and (min-width: 1023.98px) {
+  .trackerContainer {
+    grid-template-columns: repeat(5, 1fr);
+  }
+}

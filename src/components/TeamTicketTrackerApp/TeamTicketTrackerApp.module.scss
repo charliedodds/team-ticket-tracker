@@ -22,6 +22,26 @@
 
 @media screen and (min-width: 1023.98px) {
   .trackerContainer {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+  }
+}
+
+@media screen and (min-width: 1439.98px) {
+  .trackerContainer {
+    grid-template-columns: repeat(4, 1fr);
+    gap: 3rem;
+  }
+}
+
+@media screen and (min-width: 1599.98px) {
+  .trackerContainer {
     grid-template-columns: repeat(5, 1fr);
+  }
+}
+
+@media screen and (min-width: 2559.98px) {
+  .trackerContainer {
+    gap: 5rem;
   }
 }

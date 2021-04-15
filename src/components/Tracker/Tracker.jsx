@@ -17,8 +17,10 @@ const Tracker = ({ employee }) => {
   };
   return (
     <article className={styles.Tracker}>
-      <h2 className={styles.name}>{name}</h2>
-      <h3 className={styles.role}>{role}</h3>
+      <section>
+        <h2 className={styles.name}>{name}</h2>
+        <h3 className={styles.role}>{role}</h3>
+      </section>
       <TicketCounter
         tickets={ticketsCompleted}
         increment={increment}
